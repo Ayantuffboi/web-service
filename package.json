@@ -1,13 +1,12 @@
 {
-  "name": "external-site-proxy",
+  "name": "bio-research-proxy",
   "version": "1.0.0",
-  "description": "Reverse proxy for an external website",
-  "main": "server.js",
+  "private": true,
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^5.1.0",
-    "http-proxy-middleware": "^4.2.0"
+    "http-proxy-middleware": "^3.0.5"
   }
 }
