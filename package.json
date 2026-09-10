@@ -1,0 +1,13 @@
+{
+  "name": "external-site-proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy for an external website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^4.2.0"
+  }
+}
